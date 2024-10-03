@@ -51,9 +51,11 @@ public class TodoList {
         // Add some todo items
         myTodoList.addTodoItem("Finish Java assignment");
         myTodoList.addTodoItem("Grocery shopping");
-        
+        myTodoList.addTodoItem("Laundry");
+        myTodoList.addTodoItem("Fishing");
+        myTodoList.addTodoItem("Nap time");
         // Display all items
         myTodoList.displayTodoItems();
     }
 }
-// Add Data Feature
+
