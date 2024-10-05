@@ -31,6 +31,7 @@ public class TodoList {
     public void addTodoItem(String description) {
         if (count < todoItems.length) {
             todoItems[count] = new TodoItem(description);
+            System.out.println("Added todo item without date in add-todo branch");
             count++;
         } else {
             System.out.println("Todo list is full!");
