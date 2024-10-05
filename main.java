@@ -49,11 +49,23 @@ public class TodoList {
         TodoList myTodoList = new TodoList(5);
 
         // Add some todo items
+<<<<<<< HEAD
         myTodoList.addTodoItem("Finish Java assignment", new Date());
         myTodoList.addTodoItem("Grocery shopping", new Date());
         
+=======
+        myTodoList.addTodoItem("Finish Java assignment");
+        myTodoList.addTodoItem("Grocery shopping");
+        myTodoList.addTodoItem("Laundry");
+        myTodoList.addTodoItem("Fishing");
+        myTodoList.addTodoItem("Nap time");
+>>>>>>> add-date
         // Display all items
         myTodoList.displayTodoItems();
     }
 }
+<<<<<<< HEAD
 // Adding a TODO feature
+=======
+
+>>>>>>> add-date
